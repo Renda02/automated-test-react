@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import { tests } from "./data";
 
 function Main() {
-    
-
+    const [started, setStarted] =useState('Not Started')
+const [testPassed,setTestPassed= useState(0)
 
   return (
     <div>
@@ -19,12 +19,16 @@ function Main() {
             return (
               <tr>
                 <td>{test.description}</td>
-                <td>{test.run}</td>
+                <td>{started}</td>
               </tr>
             );
           })}
         </tbody>
       </table>
+      <div>
+          <ul><li>Number of test running: {testPassed} </li><li>Number of test passed: {testPassed} </li>
+          <li>Number of test failed: {testPassed} </li></ul>
+      </div>
     </div>
   );
 }
