@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-table{
+.container{
   width: 90%;
   max-width: 620px;
   border: 1px thin rgb(77, 58, 58);
@@ -29,4 +29,36 @@ tr td{
   background-color: beige;
   border: 1px thin rgb(77, 58, 58);
 text-transform:capitalize;
+padding: 1em;
+}
+
+button{
+  padding: 0.8em 1.2em;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  cursor: pointer;
+  border-radius: 4px;
+  margin:auto;
+  color: white;
+}
+
+button:hover{
+  background-color: #27ae60;
+  border-color: #27ae60;
+
+}
+
+.test-NOT_STARTED{
+  background-color: red;
+  color: #f1f1f1;
+  padding: 0.5em 1em;
+}
+
+
+.test-RUNNING{
+  color: #27ae60;
+}
+
+.test-PASSED{
+  color: blue;
 }
