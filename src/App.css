@@ -1,68 +1,91 @@
-.App{
-width: 100%;
-min-width: 1200px;
-margin: 0 auto;
-font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.App {
+  background-color: #32312f;
+  font-family: Roboto, sans-serif;
+  color: #f1f1f1;
+}
 
-.container{
-  width: 90%;
-  max-width: 620px;
-  border: 1px thin rgb(77, 58, 58);
+.container {
   margin: 0 auto;
   font-size: 1rem;
 }
 
-
-
-tr th{
-  font-size: 1.2rem;
-  font-weight: 600;
-  background-color: #a5a7aa;
-border: 1px thin rgb(77, 58, 58);
-  padding: 0.8em 1em;
+h1 {
+  font-size: 2rem;
   text-align: center;
+  margin-bottom: 1em;
 }
 
-tr td{
-  background-color: beige;
-  border: 1px thin rgb(77, 58, 58);
-text-transform:capitalize;
-padding: 1em;
+table {
+  width: 90%;
+  border-collapse: collapse;
+  letter-spacing: 0.4px;
 }
 
-button{
+table thead {
+  background-color: #39a9cb;
+}
+
+table thead tr th,
+tbody tr td{ padding: 1em;
+     border: 1px solid #dee2e685;
+     text-align: center;
+}
+
+table thead tr th {
+  font-size: 400;
+  opacity: 1;
+  vertical-align: top;
+}
+
+tbody tr td {
+  color: #f1f1f1f1;
+  background-color: #444444;
+ 
+}
+
+.test-description{
+  text-align: start;
+  text-transform: capitalize;
+}
+
+
+tr td {
+  padding: 1em;
+}
+
+button {
   padding: 1em 2em;
   background-color: #2ecc71;
   border-color: #2ecc71;
   cursor: pointer;
   border-radius: 4px;
-  margin:auto;
+  margin: auto;
   color: white;
- 
-
 }
 
-button:hover{
+button:hover {
   background-color: #27ae60;
   border-color: #27ae60;
-
 }
 
-.test-NOT_STARTED{
+.test-NOT_STARTED {
   color: orangered;
 }
 
-
-.test-RUNNING{
+.test-RUNNING {
   color: #27ae60;
 }
 
-.test-PASSED{
+.test-PASSED {
   color: blue;
 }
 
-.test-FAILED{
+.test-FAILED {
   color: red;
 }
