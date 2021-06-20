@@ -43,6 +43,7 @@ function Main() {
 
   return (
     <div className="container">
+        <h1>Automated tests</h1>
       <table>
         <thead>
           <tr>

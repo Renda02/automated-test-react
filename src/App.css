@@ -33,14 +33,15 @@ padding: 1em;
 }
 
 button{
-  padding: 0.8em 1.2em;
+  padding: 1em 2em;
   background-color: #2ecc71;
   border-color: #2ecc71;
   cursor: pointer;
   border-radius: 4px;
   margin:auto;
   color: white;
-  width: 100%
+ 
+
 }
 
 button:hover{
