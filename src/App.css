@@ -40,6 +40,7 @@ button{
   border-radius: 4px;
   margin:auto;
   color: white;
+  width: 100%
 }
 
 button:hover{
@@ -49,9 +50,7 @@ button:hover{
 }
 
 .test-NOT_STARTED{
-  background-color: red;
-  color: #f1f1f1;
-  padding: 0.5em 1em;
+  color: orangered;
 }
 
 
@@ -61,4 +60,8 @@ button:hover{
 
 .test-PASSED{
   color: blue;
+}
+
+.test-FAILED{
+  color: red;
 }
