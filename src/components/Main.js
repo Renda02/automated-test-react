@@ -55,7 +55,7 @@ function Main() {
           {testList.map((test, key) => {
             return (
               <tr>
-                <td className='test-description'>{test.description}</td>
+                <td className='test-description' >{test.description}</td>
                 <td class={`test-${test.status}`}>{test.status}</td>
               </tr>
             );
