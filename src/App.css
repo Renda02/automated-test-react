@@ -80,7 +80,8 @@ margin: 0 auto;
 
 }
 
-button:hover, {
+button:hover,
+button:focus {
   background-color: #27ae60;
   border-color: #27ae60;
 }
@@ -90,7 +91,7 @@ button:hover, {
 }
 
 .test-RUNNING {
-  color: #27ae60;
+  color: #A6F0C6;
 }
 
 .test-PASSED {
@@ -122,16 +123,12 @@ margin: 0 auto;
     margin-bottom: 0.5em;
   }
 
-  table tbody tr td{
-    
-    padding-left: 60%;
-    position: relative;
-  }
-
-  
-
   .test-description{
     text-align: center;
+  }
+
+  .button{
+    cursor: pointer;
   }
 
 }

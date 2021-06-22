@@ -66,15 +66,15 @@ function Main() {
         <ul>
           <li>
             Number of test running:{" "}
-            {testList.filter((ts) => ts.status == "RUNNING").length}{" "}
+            {testList.filter((ts) => ts.status === "RUNNING").length}{" "}
           </li>
           <li>
             Number of test passed:{" "}
-            {testList.filter((ts) => ts.status == "PASSED").length}{" "}
+            {testList.filter((ts) => ts.status === "PASSED").length}{" "}
           </li>
           <li>
             Number of test failed:{" "}
-            {testList.filter((ts) => ts.status == "FAILED").length}{" "}
+            {testList.filter((ts) => ts.status === "FAILED").length}{" "}
           </li>
         </ul>
       </div>{" "}
