@@ -13,12 +13,12 @@ function Main() {
     testList.forEach((test, index) => {
       test.run(() => {
         // this is called when test pass
-        console.log(index + " has passed");
+        //console.log(index + " has passed");
 
         // 1. copy the list
         const testListNew = testList;
 
-        // 2. build the new test
+        // 2. build the new test using index
         testListNew[index] = {
           ...testList[index],
           status: "PASSED",
@@ -43,7 +43,7 @@ function Main() {
 
   return (
     <div className="container">
-        <h1>Automated tests</h1>
+      <h1>Automated tests</h1>
       <table>
         <thead>
           <tr>
@@ -55,7 +55,7 @@ function Main() {
           {testList.map((test, key) => {
             return (
               <tr>
-                <td className='test-description' >{test.description}</td>
+                <td className="test-description">{test.description}</td>
                 <td className={`test-${test.status}`}>{test.status}</td>
               </tr>
             );

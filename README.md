@@ -12,7 +12,8 @@ TODO:
 - Build two components for test data and main component to pass data and render the test.
 - Have a button to  run the 6 tests simultaneously.
 - Have test update in which it display numbers of test passed/failed and running.
--Display/Alert test done when test are completed running.
+- Display/Alert test done when test are completed running.
+- make the app responsive
 
 
 ## Proposed Solution
@@ -22,15 +23,16 @@ TODO: [ADD_SOLUTION_DESCRIPTION]
 - Keep all the test in memory using useState.
 - Initialize the tests in a state by mapping through the tests and returning an object and also add intial status  'not started' 
 - Add a button with an onClick function in which as soon as it's click/press it starts to run and change the status to running.
-- To set the test and update use forEach() array method inside the onClick function to first get the each test taking two argument(test, index)
-- To find which test is running build a newTestList take take testList with the index and update the status
+- use forEach() array method inside the onClick function to first get the each test taking two argument(test, index)
+- To update the test use  callback function which will first change the test to running by copy the the tests to newList then update the status by Update the test with the new status using the index
+- To get the status of the tests filter() the testList
 
 
 ## Libraries / Tools Used
 
 - React.js
 - Create React App for project setup
-- ...
+
 
 ## Setup
 
