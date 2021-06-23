@@ -56,7 +56,7 @@ function Main() {
             return (
               <tr>
                 <td className='test-description' >{test.description}</td>
-                <td class={`test-${test.status}`}>{test.status}</td>
+                <td className={`test-${test.status}`}>{test.status}</td>
               </tr>
             );
           })}

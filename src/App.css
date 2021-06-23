@@ -91,11 +91,11 @@ button:focus {
 }
 
 .test-RUNNING {
-  color: #A6F0C6;
+  color: #11B6EF;
 }
 
 .test-PASSED {
-  color: #C0E218;
+  color: #1ED760;
 }
 
 .test-FAILED {
