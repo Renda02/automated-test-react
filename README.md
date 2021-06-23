@@ -18,7 +18,7 @@ TODO:
 
 ## Proposed Solution
 
-TODO: [ADD_SOLUTION_DESCRIPTION]
+TODO:
 - Created data component which I store the test data and main component which the test data is pass to.
 - Keep all the test in memory using useState.
 - Initialize the tests in a state by mapping through the tests and returning an object and also add intial status  'not started' 

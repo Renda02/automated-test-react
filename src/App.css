@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #32312f;
+  background-color: #002233;
   font-family: Roboto, sans-serif;
   color: #f1f1f1;
 }
@@ -32,7 +32,7 @@ table {
 }
 
 table thead {
-  background-color: #5AA897;
+  background-color: #004D99;
 }
 
 table thead tr th,
@@ -49,7 +49,7 @@ table thead tr th {
 
 tbody tr td {
   color: #f1f1f1f1;
-  background-color: #444444;
+  background-color: #01324A;
  
 }
 
@@ -69,14 +69,16 @@ ul li{
 }
 
 button {
-  padding: 1em 2em;
-  background-color: #01937C;
+  margin: 1em;
+  padding: 1em 2.5em;
+  background-color: #0af;
 border: none;
   cursor: pointer;
   border-radius: 4px;
 display: block;
 margin: 0 auto;
-  color: white;
+  color: #f1f1f1;
+  font-weight: 500;
 
 }
 

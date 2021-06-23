@@ -47,7 +47,7 @@ function Main() {
       <table>
         <thead>
           <tr>
-            <th>Test Descrption</th>
+            <th>Test Description</th>
             <th>Status of Test</th>
           </tr>
         </thead>
