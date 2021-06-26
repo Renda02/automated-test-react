@@ -11,7 +11,7 @@ function Main() {
 
   function startTest() {
     testList.forEach((test, index) => {
-      test.run(() => {
+      test.run((testPassed) => {
         // this is called when test pass
         //console.log(index + " has passed");
 
@@ -21,7 +21,7 @@ function Main() {
         // 2. build the new test using index
         testListNew[index] = {
           ...testList[index],
-          status: "PASSED",
+          status:testPassed?  "PASSED": 'FAILED',
         };
 
         // 3. Update the state
@@ -43,7 +43,7 @@ function Main() {
 
   return (
     <div className="container">
-      <h1>Automated tests</h1>
+      <h1 className='main-title'>Automated tests</h1>
       <table>
         <thead>
           <tr>
