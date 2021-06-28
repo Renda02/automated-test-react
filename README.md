@@ -4,6 +4,7 @@ The task is to build an automated test runner that executes tests in the
 browser and reports on their results as soon as each test has completed.
 
 Solution by [Rendani Luvhengo](mailto:rluvhengo2@gmail.com)
+Demo [Automated Test](https://automated-react-test.netlify.app/)
 
 ## Assumptions
 
