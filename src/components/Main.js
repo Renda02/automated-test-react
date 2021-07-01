@@ -17,6 +17,16 @@ function Main() {
 
         // 1. copy the list
         const testListNew = testList;
+        
+        // testList.map((test,inx)=>{
+        //   if (index === inx){
+        //     return{
+        //     ...test,
+        //     status:testPassed ? 'PASSED' : 'FAILED',
+        //   } 
+        //   }
+         
+        // })
 
         // 2. build the new test using index
         testListNew[index] = {
@@ -54,7 +64,7 @@ function Main() {
         <tbody>
           {testList.map((test, key) => {
             return (
-              <tr>
+              <tr key={key}>
                 <td className="test-description">{test.description}</td>
                 <td className={`test-${test.status}`}>{test.status}</td>
               </tr>
